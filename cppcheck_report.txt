@@ -1,0 +1,623 @@
+Ports/68HC12/DG128A/NonPaged/COSMIC/os_cpu_c.c:184:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                     /* 'opt' is not used, prevent warning                           */
+            ^
+Ports/68HC12/DG128A/NonPaged/COSMIC/os_cpu_c.c:184:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                     /* 'opt' is not used, prevent warning                           */
+            ^
+Ports/68HC12/DG128A/NonPaged/IAR/OS_CPU_C.C:184:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                     /* 'opt' is not used, prevent warning                           */
+            ^
+Ports/68HC12/DG128A/Paged/COSMIC/OS_CPU_C.C:189:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/Ex1/test.c:103:11: warning: Redundant assignment of 'pdata' to itself. [selfAssignment]
+    pdata = pdata;
+          ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/Ex1/test.c:130:11: warning: Redundant assignment of 'pdata' to itself. [selfAssignment]
+    pdata = pdata;
+          ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/Ex1/test.c:155:11: warning: Redundant assignment of 'pdata' to itself. [selfAssignment]
+    pdata = pdata;
+          ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/Ex1/test.c:103:11: style: Variable 'pdata' is assigned a value that is never used. [unreadVariable]
+    pdata = pdata;
+          ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/Ex1/test.c:130:11: style: Variable 'pdata' is assigned a value that is never used. [unreadVariable]
+    pdata = pdata;
+          ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/Ex1/test.c:155:11: style: Variable 'pdata' is assigned a value that is never used. [unreadVariable]
+    pdata = pdata;
+          ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/os_cpu_c.c:189:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/os_cpu_c.c:189:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/DG128A/Paged/CodeWarrior/os_cpu_c.c:186:13: style: Unused variable: ppage [unusedVariable]
+    INT8U   ppage;
+            ^
+Ports/68HC12/DG128A/Paged/IAR/os_cpu_c.c:188:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/DG128A/Paged/IAR/os_cpu_c.c:188:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/NonPaged/COSMIC/os_cpu_c.c:190:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                     /* 'opt' is not used, prevent warning                           */
+            ^
+Ports/68HC12/NonPaged/COSMIC/os_cpu_c.c:190:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                     /* 'opt' is not used, prevent warning                           */
+            ^
+Ports/68HC12/Paged/COSMIC/os_cpu_c.c:189:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/Paged/COSMIC/os_cpu_c.c:189:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/68HC12/Paged/COSMIC/os_cpu_c.c:186:13: style: Unused variable: ppage [unusedVariable]
+    INT8U   ppage;
+            ^
+Ports/78K0/IAR/os_cpu_c.c:211:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                                                       /* 'opt' is not used, prevent warning                       */
+           ^
+Ports/78K0/IAR/os_cpu_c.c:211:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                                                       /* 'opt' is not used, prevent warning                       */
+           ^
+Ports/78K0R/IAR/os_cpu_c.c:211:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                                                       /* 'opt' is not used, prevent warning                       */
+           ^
+Ports/78K0R/IAR/os_cpu_c.c:211:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                                                       /* 'opt' is not used, prevent warning                       */
+           ^
+Ports/80186/DOS/L/BC45/os_cpu_c.c:182:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80186/DOS/L/BC45/os_cpu_c.c:182:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L-FP-I/BC45/os_cpu_c.c:272:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L-FP-I/BC45/os_cpu_c.c:272:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L-FP/BC45/os_cpu_c.c:271:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L-FP/BC45/os_cpu_c.c:271:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L-I/BC45/os_cpu_c.c:183:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L-I/BC45/os_cpu_c.c:183:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L/BC45/os_cpu_c.c:182:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/80x86/DOS/L/BC45/os_cpu_c.c:182:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                           /* 'opt' is not used, prevent warning                      */
+           ^
+Ports/ARM-Cortex-M/ARMv6-M/os_cpu_c.c:471:16: style: Unused variable: cpu_sr [unusedVariable]
+    OS_CPU_SR  cpu_sr;
+               ^
+Ports/ARM-Cortex-M/ARMv7-M/os_cpu_c.c:653:16: style: Unused variable: cpu_sr [unusedVariable]
+    OS_CPU_SR  cpu_sr;
+               ^
+Ports/ARM/Generic/GNU/os_cpu_c.c:353:15: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt       = opt;                             /* 'opt' is not used, prevent warning                 */
+              ^
+Ports/ARM/Generic/GNU/os_cpu_c.c:353:15: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt       = opt;                             /* 'opt' is not used, prevent warning                 */
+              ^
+Ports/ARM/Generic/IAR/os_cpu_c.c:357:15: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt       = opt;                             /* 'opt' is not used, prevent warning                 */
+              ^
+Ports/ARM/Generic/IAR/os_cpu_c.c:357:15: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt       = opt;                             /* 'opt' is not used, prevent warning                 */
+              ^
+Ports/ARM/Generic/RealView/os_cpu_c.c:357:15: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt       = opt;                             /* 'opt' is not used, prevent warning                 */
+              ^
+Ports/ARM/Generic/RealView/os_cpu_c.c:357:15: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt       = opt;                             /* 'opt' is not used, prevent warning                 */
+              ^
+Ports/ARM7/AT91/ARM/IAR/os_cpu_c.c:176:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/AT91/ARM/IAR/os_cpu_c.c:176:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/AT91/Thumb/IAR/os_cpu_c.c:175:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/AT91/Thumb/IAR/os_cpu_c.c:175:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/Generic/ARM/IAR/os_cpu_c.c:188:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/Generic/ARM/IAR/os_cpu_c.c:188:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/LH79520/ARM/GNU-XTools/Source/os_cpu_c.c:176:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/LH79520/ARM/GNU-XTools/Source/os_cpu_c.c:176:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/LH79520/ARM/IAR/os_cpu_c.c:183:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM7/LH79520/ARM/IAR/os_cpu_c.c:183:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM9/AT91RM9200/ARM/GNU-XTools/Source/os_cpu_c.c:176:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM9/AT91RM9200/ARM/GNU-XTools/Source/os_cpu_c.c:176:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM9/AT91RM9200/ARM/IAR/os_cpu_c.c:183:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/ARM9/AT91RM9200/ARM/IAR/os_cpu_c.c:183:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                         /* 'opt' is not used, prevent warning                      */
+             ^
+Ports/Blackfin/VDSP++/os_cpu_c.c:491:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                                 /* 'opt' is not used, prevent warning                    */
+           ^
+Ports/Blackfin/VDSP++/os_cpu_c.c:491:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                                 /* 'opt' is not used, prevent warning                    */
+           ^
+Ports/ColdFire-EMAC/Generic/CodeWarrior/os_cpu_c.c:212:9: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt = opt;                                        /* 'opt' is not used, prevent compiler warning   */
+        ^
+Ports/ColdFire/5272/GNU/os_cpu_c.c:181:9: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt = opt;                                        /* 'opt' is not used, prevent compiler warning   */
+        ^
+Ports/ColdFire/Generic/CodeWarrior/os_cpu_c.c:212:9: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt = opt;                                        /* 'opt' is not used, prevent compiler warning   */
+        ^
+Ports/ColdFire/Generic/IAR/os_cpu_c.c:212:9: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt = opt;                                        /* 'opt' is not used, prevent compiler warning   */
+        ^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:139:6: warning: Redundant assignment of 'ptcb' to itself. [selfAssignment]
+ ptcb=ptcb;
+     ^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:157:6: warning: Redundant assignment of 'ptcb' to itself. [selfAssignment]
+ ptcb=ptcb;
+     ^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:139:6: style: Variable 'ptcb' is assigned a value that is never used. [unreadVariable]
+ ptcb=ptcb;
+     ^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:157:6: style: Variable 'ptcb' is assigned a value that is never used. [unreadVariable]
+ ptcb=ptcb;
+     ^
+Ports/H8-300L/H8-38024/EDK38024/uCOS-II/os_core.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 36 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Ports/H8-300L/H8-38024/EDK38024/uCOS-II/os_core.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Ports/H8-300L/H8-38024/EDK38024/uCOS-II/os_task.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 36 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Ports/H8-300L/H8-38024/EDK38024/uCOS-II/os_task.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Ports/H8-300L/H8-38024/EDK38024/uCOS-II/os_time.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 36 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Ports/H8-300L/H8-38024/EDK38024/uCOS-II/os_time.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Ports/H8-300L/Normal/HEW/os_cpu_c.c:179:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8-300L/Normal/HEW/os_cpu_c.c:179:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8-300L/Normal/IAR/os_cpu_c.c:179:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8-300L/Normal/IAR/os_cpu_c.c:179:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8S/Adv/HEW/os_cpu_c.c:212:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                                                      /* 'opt' is not used, prevent warning                       */
+            ^
+Ports/H8S/Adv/HEW/os_cpu_c.c:212:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                                                      /* 'opt' is not used, prevent warning                       */
+            ^
+Ports/H8S/Adv/IAR/os_cpu_c.c:182:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8S/Adv/IAR/os_cpu_c.c:182:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8S/H8S-26xx/Adv/IAR/os_cpu_c.c:182:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8S/H8S-26xx/Adv/IAR/os_cpu_c.c:182:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8SX/Adv/HEW/os_cpu_c.c:212:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                                                      /* 'opt' is not used, prevent warning                       */
+            ^
+Ports/H8SX/Adv/HEW/os_cpu_c.c:212:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                                                      /* 'opt' is not used, prevent warning                       */
+            ^
+Ports/H8SX/Adv/IAR/os_cpu_c.c:221:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/H8SX/Adv/IAR/os_cpu_c.c:221:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                               /* 'opt' is not used, prevent warning                 */
+            ^
+Ports/HCS12X/Paged/Codewarrior/os_cpu_c.c:215:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     =  opt;                                             /* 'opt' is not used, prevent warning                   */
+            ^
+Ports/HCS12X/Paged/Codewarrior/os_cpu_c.c:215:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     =  opt;                                             /* 'opt' is not used, prevent warning                   */
+            ^
+Ports/HCS12X/Paged/Cosmic/os_cpu_c.c:206:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/HCS12X/Paged/Cosmic/os_cpu_c.c:206:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                          /* 'opt' is not used, prevent warning                      */
+            ^
+Ports/LatticeMico32/GNU/os_cpu_c.c:215:17: style: Variable 'stk' is reassigned a value before the old one has been used. [redundantAssignment]
+    stk         = (INT32U *)impure_ptr;
+                ^
+Ports/LatticeMico32/GNU/os_cpu_c.c:208:17: note: stk is assigned
+    stk         = (INT32U *)ptos;
+                ^
+Ports/LatticeMico32/GNU/os_cpu_c.c:215:17: note: stk is overwritten
+    stk         = (INT32U *)impure_ptr;
+                ^
+Ports/M683xx/68332/COSMIC/os_cpu_c.c:182:15: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt       = opt;                                  /* 'opt' is not used, prevent warning            */
+              ^
+Ports/M683xx/68332/COSMIC/os_cpu_c.c:182:15: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt       = opt;                                  /* 'opt' is not used, prevent warning            */
+              ^
+Ports/MC9S08/NonPaged/Codewarrior/os_cpu_c.c:216:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                           /* 'opt' is not used, prevent warning                     */
+            ^
+Ports/MC9S08/NonPaged/Codewarrior/os_cpu_c.c:216:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                           /* 'opt' is not used, prevent warning                     */
+            ^
+Ports/MC9S08/Paged/Codewarrior/os_cpu_c.c:219:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                           /* 'opt' is not used, prevent warning                     */
+            ^
+Ports/MC9S08/Paged/Codewarrior/os_cpu_c.c:219:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                           /* 'opt' is not used, prevent warning                     */
+            ^
+Ports/MSP430/IAR/Os_cpu_c.c:189:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;
+           ^
+Ports/MSP430/IAR/Os_cpu_c.c:189:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;
+           ^
+Ports/MSP430X/CCS/MSP430x5xx/os_cpu_c.c:191:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;
+           ^
+Ports/MSP430X/CCS/MSP430x5xx/os_cpu_c.c:191:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;
+           ^
+Ports/MSP430X/IAR/MSP430x5xx/os_cpu_c.c:191:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;
+           ^
+Ports/MSP430X/IAR/MSP430x5xx/os_cpu_c.c:191:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;
+           ^
+Ports/MicroBlaze/EDK/Code/system.c:29:17: style: Variable 'baseaddr' is assigned a value that is never used. [unreadVariable]
+   int baseaddr = *(int *)baseaddr_p;
+                ^
+Ports/MicroBlaze/EDK/Code/system.c:58:17: style: Variable 'baseaddr' is assigned a value that is never used. [unreadVariable]
+   int baseaddr = *(int *)baseaddr_p;
+                ^
+Ports/MicroBlaze/GNU/os_cpu_c.c:240:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                    /* 'opt' is not used, prevent warning                            */
+            ^
+Ports/MicroBlaze/GNU/os_cpu_c.c:240:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                    /* 'opt' is not used, prevent warning                            */
+            ^
+Ports/NiosII/GNU/os_cpu_c.c:144:10: warning: Redundant assignment of 'ptcb' to itself. [selfAssignment]
+    ptcb = ptcb;                                                /* Prevent compiler warning                             */
+         ^
+Ports/NiosII/GNU/os_cpu_c.c:162:10: warning: Redundant assignment of 'ptcb' to itself. [selfAssignment]
+    ptcb = ptcb;                                                /* Prevent compiler warning                             */
+         ^
+Ports/NiosII/GNU/os_cpu_c.c:144:10: style: Variable 'ptcb' is assigned a value that is never used. [unreadVariable]
+    ptcb = ptcb;                                                /* Prevent compiler warning                             */
+         ^
+Ports/NiosII/GNU/os_cpu_c.c:162:10: style: Variable 'ptcb' is assigned a value that is never used. [unreadVariable]
+    ptcb = ptcb;                                                /* Prevent compiler warning                             */
+         ^
+Ports/PPC405/GNU/os_cpu_c.c:217:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                    /* 'opt' is not used, prevent warning                            */
+            ^
+Ports/PPC405/GNU/os_cpu_c.c:217:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                    /* 'opt' is not used, prevent warning                            */
+            ^
+Ports/PPC440/GNU/os_cpu_c.c:227:13: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt     = opt;                    /* 'opt' is not used, prevent warning                            */
+            ^
+Ports/PPC440/GNU/os_cpu_c.c:227:13: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt     = opt;                    /* 'opt' is not used, prevent warning                            */
+            ^
+Ports/PowerPC/MPC57xx-VLE/GNU/os_cpu_c.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 54 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Ports/PowerPC/MPC57xx-VLE/GNU/os_cpu_c.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Ports/RISC-V/RV32/GCC/os_cpu_c.c:431:15: style: Unused variable: cpu_sr [unusedVariable]
+    OS_CPU_SR cpu_sr;
+              ^
+Ports/SH-2/Renesas/os_cpu_c.c:212:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH-2/Renesas/os_cpu_c.c:212:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH2A-FPU/HEW/os_cpu_c.c:216:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH2A-FPU/HEW/os_cpu_c.c:216:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH2A-FPU/Renesas/os_cpu_c.c:215:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH2A-FPU/Renesas/os_cpu_c.c:215:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH2A/Renesas/os_cpu_c.c:216:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/SH2A/Renesas/os_cpu_c.c:216:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                               /* prevent compiler warning     */
+           ^
+Ports/V850E2M/CubeSuite+/os_cpu_c.c:239:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                        /* 'opt' is not used, prevent warning.                        */
+             ^
+Ports/V850E2M/CubeSuite+/os_cpu_c.c:239:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                        /* 'opt' is not used, prevent warning.                        */
+             ^
+Ports/V850E2M/IAR/os_cpu_c.c:236:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                                        /* 'opt' is not used, prevent warning.                       */
+             ^
+Ports/V850E2M/IAR/os_cpu_c.c:236:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                                        /* 'opt' is not used, prevent warning.                       */
+             ^
+Ports/V850E2S/IAR/os_cpu_c.c:236:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                                        /* 'opt' is not used, prevent warning.                       */
+             ^
+Ports/V850E2S/IAR/os_cpu_c.c:236:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                                        /* 'opt' is not used, prevent warning.                       */
+             ^
+Ports/V850ES/CubeSuite/os_cpu_c.c:239:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                        /* 'opt' is not used, prevent warning.                        */
+             ^
+Ports/V850ES/CubeSuite/os_cpu_c.c:239:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                        /* 'opt' is not used, prevent warning.                        */
+             ^
+Ports/V850ES/IAR/os_cpu_c.c:236:14: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt      = opt;                        /* 'opt' is not used, prevent warning.                        */
+             ^
+Ports/V850ES/IAR/os_cpu_c.c:236:14: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt      = opt;                        /* 'opt' is not used, prevent warning.                        */
+             ^
+Ports/V850ES/PM+/os_cpu_c.c:240:8: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+ opt   = opt;         /* 'opt' is not used, prevent warning.                        */
+       ^
+Ports/V850ES/PM+/os_cpu_c.c:240:8: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+ opt   = opt;         /* 'opt' is not used, prevent warning.                        */
+       ^
+Ports/XA/Tasking/os_cpu_c.c:148:12: warning: Redundant assignment of 'opt' to itself. [selfAssignment]
+    opt    = opt;                              /* 'opt' is not used, prevent warning                   */
+           ^
+Ports/XA/Tasking/os_cpu_c.c:148:12: style: Variable 'opt' is assigned a value that is never used. [unreadVariable]
+    opt    = opt;                              /* 'opt' is not used, prevent warning                   */
+           ^
+Ports/XA/Tasking/os_cpu_c.c:228:10: warning: Redundant assignment of 'ptcb' to itself. [selfAssignment]
+    ptcb = ptcb;                       /* Prevent compiler warning                                     */
+         ^
+Ports/XA/Tasking/os_cpu_c.c:245:10: warning: Redundant assignment of 'ptcb' to itself. [selfAssignment]
+    ptcb = ptcb;                       /* Prevent compiler warning                                     */
+         ^
+Ports/XA/Tasking/os_cpu_c.c:228:10: style: Variable 'ptcb' is assigned a value that is never used. [unreadVariable]
+    ptcb = ptcb;                       /* Prevent compiler warning                                     */
+         ^
+Ports/XA/Tasking/os_cpu_c.c:245:10: style: Variable 'ptcb' is assigned a value that is never used. [unreadVariable]
+    ptcb = ptcb;                       /* Prevent compiler warning                                     */
+         ^
+Source/os_core.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 57 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_core.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_dbg_r.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 54 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_dbg_r.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_flag.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 57 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_flag.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_mbox.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_mbox.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_mem.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 57 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_mem.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_mutex.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_mutex.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_q.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 57 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_q.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_sem.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_sem.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_task.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 58 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_task.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_time.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 55 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_time.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/os_tmr.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/os_tmr.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Source/ucos_ii.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 60 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Source/ucos_ii.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+Ports/LatticeMico32/GNU/MicroC_malloc_lock.c:25:0: style: The function 'InitMallocLock' is never used. [unusedFunction]
+
+^
+Ports/Win32/Visual Studio/os_cpu_c.c:1270:0: style: The function 'OSCtrlBreakHandler' is never used. [unusedFunction]
+
+^
+Ports/RX/GNURX/os_cpu_c.c:399:0: style: The function 'OSCtxSw' is never used. [unusedFunction]
+
+^
+Ports/Win32/Visual Studio/os_cpu_c.c:1345:0: style: The function 'OSDebuggerBreak' is never used. [unusedFunction]
+
+^
+Ports/80x86/DOS/L-FP-I/BC45/os_cpu_c.c:85:0: style: The function 'OSFPInit' is never used. [unusedFunction]
+
+^
+Ports/NiosII/GNU/os_cpu_c.c:239:0: style: The function 'OSInitHookBegin' is never used. [unusedFunction]
+
+^
+Ports/NiosII/GNU/os_cpu_c.c:246:0: style: The function 'OSInitHookEnd' is never used. [unusedFunction]
+
+^
+Ports/ARM7/AT91/ARM/IAR/os_cpu_c.c:277:0: style: The function 'OSIntCtxSw' is never used. [unusedFunction]
+
+^
+Ports/AVR32/AP7000/GNU/os_cpu_c.c:387:0: style: The function 'OSStartHighRdy' is never used. [unusedFunction]
+
+^
+Ports/NiosII/GNU/os_cpu_c.c:258:0: style: The function 'OSTCBInitHook' is never used. [unusedFunction]
+
+^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:137:0: style: The function 'OSTaskCreateHook' is never used. [unusedFunction]
+
+^
+Ports/NiosII/GNU/os_cpu_c.c:250:0: style: The function 'OSTaskIdleHook' is never used. [unusedFunction]
+
+^
+Ports/NiosII/GNU/os_cpu_c.c:254:0: style: The function 'OSTaskReturnHook' is never used. [unusedFunction]
+
+^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:191:0: style: The function 'OSTaskStatHook' is never used. [unusedFunction]
+
+^
+Ports/68HC12/DG128A/NonPaged/COSMIC/os_cpu_c.c:178:0: style: The function 'OSTaskStkInit' is never used. [unusedFunction]
+
+^
+Ports/80186/DOS/L/BC45/os_cpu_c.c:258:0: style: The function 'OSTaskStkInit_FPE_x86' is never used. [unusedFunction]
+
+^
+Ports/Win32/Visual Studio/os_cpu_c.c:1195:0: style: The function 'OSTaskW32' is never used. [unusedFunction]
+
+^
+Ports/Win32/Visual Studio/os_cpu_c.c:1119:0: style: The function 'OSTickW32' is never used. [unusedFunction]
+
+^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:252:0: style: The function 'OSTimeTickHook' is never used. [unusedFunction]
+
+^
+Ports/ColdFire/5272/GNU/os_cpu_c.c:300:0: style: The function 'OSVectGet' is never used. [unusedFunction]
+
+^
+Ports/ColdFire/5272/GNU/os_cpu_c.c:324:0: style: The function 'OSVectSet' is never used. [unusedFunction]
+
+^
+Ports/ARM-Cortex-A/ARMv7-A/os_cpu_c.c:608:0: style: The function 'OS_CPU_ExceptStkChk' is never used. [unusedFunction]
+
+^
+Ports/ARM/Generic/GNU/os_cpu_c.c:536:0: style: The function 'OS_CPU_InitExceptVect' is never used. [unusedFunction]
+
+^
+Ports/ARM/Generic/IAR/os_cpu_c.c:579:0: style: The function 'OS_CPU_InitExceptVectAddr' is never used. [unusedFunction]
+
+^
+Ports/Blackfin/VDSP++/os_cpu_c.c:398:0: style: The function 'OS_CPU_IntHandler' is never used. [unusedFunction]
+
+^
+Ports/Blackfin/VDSP++/os_cpu_c.c:348:0: style: The function 'OS_CPU_RegisterHandler' is never used. [unusedFunction]
+
+^
+Ports/ARM-Cortex-M/ARMv6-M/os_cpu_c.c:468:0: style: The function 'OS_CPU_SysTickHandler' is never used. [unusedFunction]
+
+^
+Ports/ARM-Cortex-M/ARMv6-M/os_cpu_c.c:499:0: style: The function 'OS_CPU_SysTickInitFreq' is never used. [unusedFunction]
+
+^
+Ports/RX/GNURX/os_cpu_c.c:434:0: style: The function 'OS_KA_IPL_BoundaryGet' is never used. [unusedFunction]
+
+^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:299:0: style: The function 'SetOSPrioCur' is never used. [unusedFunction]
+
+^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:294:0: style: The function 'SetOSRunning' is never used. [unusedFunction]
+
+^
+Ports/RISC-V/RV32/GCC/os_cpu_c.c:428:0: style: The function 'SysTick_Handler' is never used. [unusedFunction]
+
+^
+Ports/DSP56F8xxx/CodeWarrior/OS_CPU.C:289:0: style: The function 'ValueOSPrioHighRdy' is never used. [unusedFunction]
+
+^
+Ports/LatticeMico32/GNU/MicroC_malloc_lock.c:52:0: style: The function '__malloc_lock' is never used. [unusedFunction]
+
+^
+Ports/LatticeMico32/GNU/MicroC_malloc_lock.c:71:0: style: The function '__malloc_unlock' is never used. [unusedFunction]
+
+^
+Ports/MicroBlaze/EDK/Code/system.c:28:0: style: The function 'timer1_int_handler' is never used. [unusedFunction]
+
+^
+Ports/MicroBlaze/EDK/Code/system.c:57:0: style: The function 'timer2_int_handler' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
